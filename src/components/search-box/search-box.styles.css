@@ -1,0 +1,10 @@
+input.search {
+	-webkit-appearance: none;
+	border: 5px solid greenyellow;
+	outline: none;
+	padding: 10px;
+	line-height: 30px;
+	margin-bottom: 30px;
+	font-size: 30px;
+	border-radius: 50px;
+}
