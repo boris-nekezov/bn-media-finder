@@ -1,0 +1,10 @@
+body {
+	margin: 0;
+	background: #111;
+	color: yellowgreen;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+		monospace;
+}
