@@ -28,7 +28,7 @@ function App() {
 				{multimedia && <MultimediaList multimedia={multimedia} />}
 			</div>
 			<footer class="footer">
-				<h3>Code and Design by Boris Nekezov © 2021. All Rights Reserved</h3>
+				<h3>Code and Design by Boris Nekezov © 2022. All Rights Reserved</h3>
 			</footer>
 		</div>
 	);
