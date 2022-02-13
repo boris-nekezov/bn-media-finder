@@ -1,9 +1,10 @@
 import './App.css';
 import React, { useState } from 'react';
-import { SearchBox } from './components/search-box/search-box.component';
-import { MultimediaList } from './components/multimedia-list/multimedia-list.component';
+import { SearchBox } from './components/search-box/search-box';
 import { API_KEY } from './constants/api';
 import { API_SITE } from './constants/api';
+import MoviesPage from './pages/movies/movies';
+
 function App() {
 	const [multimedia, setMultimedia] = useState([]);
 
@@ -19,15 +20,19 @@ function App() {
 
 	return (
 		<div className="App">
-			<div class="content">
-				<h1>BN Media Finder</h1>
+			<div className="content">
+				<div className="header">
+					<h1>BN Media Finder</h1>
+					<h2>Search your movie here</h2>
+					<h3>Important: <small>You must write exact name of the movie!</small></h3>
+				</div>
 				<SearchBox
 					placeholder="search multimedia"
 					handleChange={e => searchMultimedia(e)}
 				/>
-				{multimedia && <MultimediaList multimedia={multimedia} />}
+				{multimedia && <MoviesPage multimedia={multimedia}/>}
 			</div>
-			<footer class="footer">
+			<footer className="footer">
 				<h3>Code and Design by Boris Nekezov © 2022. All Rights Reserved</h3>
 			</footer>
 		</div>

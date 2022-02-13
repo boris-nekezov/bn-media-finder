@@ -1,8 +1,8 @@
 input.search {
 	-webkit-appearance: none;
-	border: 5px solid greenyellow;
+	border: 5px solid var(--color-main);
 	outline: none;
-	padding: 10px;
+	padding: 20px;
 	line-height: 30px;
 	margin-bottom: 30px;
 	font-size: 30px;
