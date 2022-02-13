@@ -1,4 +1,4 @@
-@import "./components/styles/colors.css";
+@import './components/styles/colors.css';
 
 .App {
 	text-align: center;
@@ -18,10 +18,11 @@
 	border: 0;
 	text-transform: uppercase;
 	cursor: pointer;
-} 
+}
 
 .btn--main {
 	background-color: var(--color-main);
+	color: #fff;
 }
 
 .btn-big {
