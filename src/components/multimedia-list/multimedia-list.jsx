@@ -1,12 +1,9 @@
 import React from 'react';
 import { Link, Outlet, useParams } from 'react-router-dom';
-import './multimedia-list.styles.css';
+import './multimedia-list.css';
 
 export const MultimediaList = ({ multimedia }) => {
 	let params = useParams();
-	console.log('params:>>', params)
-	console.log('proverka:>>', ("movieId" in params));
-
 	const hasMovieId = params => "movieId" in params;
 
 	return (
