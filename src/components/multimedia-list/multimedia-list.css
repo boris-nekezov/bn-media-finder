@@ -1,6 +1,7 @@
 .multimedia-list__item {
 	display: flex;
 	flex-direction: column;
+	color: var(--color-main);
 	background-color: #95dada;
 	background-color: #222;
 	border: 1px solid grey;
@@ -45,7 +46,7 @@
 		margin: 0 auto;
 		display: grid;
 		grid-template-columns: 1fr 1fr;
-		grid-gap: 20px;
+		grid-gap: 30px;
 	}
 }
 
